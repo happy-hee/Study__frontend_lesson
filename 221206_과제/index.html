@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <!--
+    문제 4. 게임 시작 함수를 호출한다.
+    GameMachine 객체는 window 객체에 프로퍼티로 존재한다.
+   -->
+  <button id="start-btn" onclick="GameMachine.game()">게임 시작</button>
+  <div id="result-div">
+    <table hidden>
+      <thead>
+        <th>컴퓨터</th>
+        <th>유저</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  
+  <!-- 문제 5. 게임 script 불러오기 -->
+  <script src="game_machine.js"></script>
+</body>
+</html>
