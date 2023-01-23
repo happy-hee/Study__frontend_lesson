@@ -19,7 +19,7 @@ const UserSelect = (props) => {
   const onUserSelectPaper = () => {
     props.userValueData("보", props.paper_img);
   };
-  
+
   props.computerValueSet();
   props.setWinStyle();
 
